@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/10c3361621.js" crossorigin="anonymous"></script>
+    <title>Todo-list</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="heading">
+        <h1 class="">T O D O</h1>
+        <span>
+        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="26" height="26"><path fill="#FFF" fill-rule="evenodd" d="M13 0c.81 0 1.603.074 2.373.216C10.593 1.199 7 5.43 7 10.5 7 16.299 11.701 21 17.5 21c2.996 0 5.7-1.255 7.613-3.268C23.22 22.572 18.51 26 13 26 5.82 26 0 20.18 0 13S5.82 0 13 0z"/></svg>
+         <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="26" height="26"><path fill="#FFF" fill-rule="evenodd" d="M13 21a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-5.657-2.343a1 1 0 010 1.414l-2.121 2.121a1 1 0 01-1.414-1.414l2.12-2.121a1 1 0 011.415 0zm12.728 0l2.121 2.121a1 1 0 01-1.414 1.414l-2.121-2.12a1 1 0 011.414-1.415zM13 8a5 5 0 110 10 5 5 0 010-10zm12 4a1 1 0 110 2h-3a1 1 0 110-2h3zM4 12a1 1 0 110 2H1a1 1 0 110-2h3zm18.192-8.192a1 1 0 010 1.414l-2.12 2.121a1 1 0 01-1.415-1.414l2.121-2.121a1 1 0 011.414 0zm-16.97 0l2.121 2.12A1 1 0 015.93 7.344L3.808 5.222a1 1 0 011.414-1.414zM13 0a1 1 0 011 1v3a1 1 0 11-2 0V1a1 1 0 011-1z"/></svg>
+         </span>
+         <div id="date"></div>
+    </div>
+          <form action="" id="form">
+          <i class="fas fa-plus-circle addBtn"></i>
+         <input type="text" class="mt-3 rounded" aria-label="Enter a new todo item" placeholder="enter todo" id="input">
+        </form>
+
+          <div class="content">
+            <ul id="list">
+                
+              </ul>
+          </div>
+
+              <div class="row no-gutters" style="font-size: 12px; padding: .75rem; width: 490px;">
+                    <div class="col-3">3 items left</div>
+                    <div class="col-6 row no-gutters">
+                      <div class="col-3">All</div>
+                      <div class="col-4">Active</div>
+                      <div class="col-5">Completed</div>
+                    </div>
+                    <div class="col-3"><a href="" id='clear' style="text-decoration: none"><p>Clear Completed</p></a></div>
+  
+                  </div>
+                  <div class="small-devices row no-gutters text-center rounded">
+                   <div class="col-3">All</div>
+                   <div class="col-4">Active</div>
+                   <div class="col-5">Completed</div>
+              </div>
+            </div>
+ <script src="script.js"></script>
+</body>
+
+</html>
